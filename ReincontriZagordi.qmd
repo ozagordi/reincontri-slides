@@ -1,0 +1,28 @@
+---
+title: "O(1) things I learned since my MS in Physics"
+author: "Osvaldo Zagordi"
+format:
+  revealjs:
+    theme: solarized
+editor: visual
+---
+
+## Where I've been
+
+::: incremental
+-   PhD \@ SISSA, Trieste
+-   Postdoc \@ ETH Zurich, DBSSE (physically in Basel)
+-   Staff scientist \@ University of Zurich, Institute of Medical Virology (this time in Zurich)
+-   Data scientist \@ Vodafone Italia, Milan
+-   (in the meanwhile, a couple of private initiatives)
+:::
+
+## Constraint Satisfaction Problems (CSP): at the interface of physics and theoretical CS
+
+-   factor graph
+
+-   Mézard, Parisi, Zecchina (2002) Analytic and Algorithmic Solution of Random Satisfiability Problems. Science
+
+![](images/factor-graph.png){.absolute top="200" left="0" width="350" height="300"}
+
+## Applications: computational biology

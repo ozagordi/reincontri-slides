@@ -1,3 +1,7 @@
+# quarto output
+*.html
+ReincontriZagordi_files/
+
 # History files
 .Rhistory
 .Rapp.history
