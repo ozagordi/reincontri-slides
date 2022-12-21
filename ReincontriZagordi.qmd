@@ -1,9 +1,7 @@
 ---
-title: "O(1) things I learned since my MS in Physics"
+title: "O(1) things I learned since my 'Laurea' in Physics"
 author: "Osvaldo Zagordi"
-format:
-  revealjs:
-    theme: solarized
+format: revealjs
 editor: visual
 ---
 
@@ -11,18 +9,222 @@ editor: visual
 
 ::: incremental
 -   PhD \@ SISSA, Trieste
--   Postdoc \@ ETH Zurich, DBSSE (physically in Basel)
--   Staff scientist \@ University of Zurich, Institute of Medical Virology (this time in Zurich)
+-   Postdoc \@ ETH Zurich (physically in Basel)
+-   Staff scientist \@ University of Zurich (this time in Zurich)
 -   Data scientist \@ Vodafone Italia, Milan
 -   (in the meanwhile, a couple of private initiatives)
 :::
 
+## PhD \@ SISSA, Trieste
+
+## Electrons and Boolean variables
+
+::: columns
+::: {.column width="50%"}
+![](images/ising-lattice.png)
+:::
+
+::: {.column width="50%"}
+![](images/factor-graph.png)
+
+○ variables
+
+☐ constraints
+:::
+:::
+
 ## Constraint Satisfaction Problems (CSP): at the interface of physics and theoretical CS
 
--   factor graph
+![Science, 2002](images/science-2002.png)
 
--   Mézard, Parisi, Zecchina (2002) Analytic and Algorithmic Solution of Random Satisfiability Problems. Science
+## My PhD thesis: applications in computational biology
 
-![](images/factor-graph.png){.absolute top="200" left="0" width="350" height="300"}
+-   Gene regulatory network
+-   Haplotype inference
+-   Bonus: (yet another) clustering algorithm
+-   Overall, **inspired** by biology, not really **in** biology
 
-## Applications: computational biology
+## What did I learn?
+
+::: incremental
+-   Trieste is not so close to Trento, after all
+-   PhD is a journey, not a destination (semi-quote)
+-   Bayes rule
+-   Working across disciplines is fun...
+-   ... but risky (in both ways)
+:::
+
+## Off to Basel, Switzerland
+
+::: columns
+::: {.column width="75%"}
+![](images/panorama-basel.jpeg)
+:::
+
+::: {.column width="25%"}
+![](images/bsse_logo.png) ![](images/eth_zurich.png)
+:::
+:::
+
+## Reconstruction of viral populations from (noisy) DNA sequencing
+
+![](images/shorah.png)
+
+By the way, this is unsupervised learning
+
+## Probabilistic model for read generation
+
+![](images/diri_equation.png)
+
+```{=tex}
+\begin{align}
+\mathbf{r}: \textrm{reads}\\
+\mathbf{h}: \textrm{haplotypes, true viral sequences}\\
+\mathbf{c}: \textrm{assignment of reads to haplotypes}\\
+\end{align}
+```
+
+## Application: drug resistance mutations on HIV
+
+
+## ShoRAH: how I became an Open Source Software contributor
+
+::: columns
+::: {.column width="65%"}
+![](images/shorah_help.png)
+:::
+
+::: {.column width="35%"}
+Still around despite being \>10 years old
+:::
+:::
+
+## What did I learn? (II)
+
+::: incremental
+-   a few things on HIV and its therapy
+-   Bayes rule (just can't get enough)
+-   linked list (data structure developed in the 50s)
+-   that it takes a lot of effort to write help pages
+:::
+
+## Above all, a bunch of statistics
+
+::: columns
+::: {.column width="25%"}
+![](images/wasserman_cover.png)
+:::
+
+::: {.column width="75%"}
+![](images/wasserman_schema.png)
+:::
+:::
+
+## In Zurich, this time for real
+::: columns
+::: {.column width="95%"}
+![](images/zurich.jpg)
+:::
+
+::: {.column width="25%"}
+![](images/unizurich.jpeg)
+:::
+:::
+
+## Institute of Medical Virology
+
+I work in the diagnostics unit (and I become the "computational and data guy"
+in the whole institute).
+
+--
+
+My job is to provide the computational algorithms and infrastructure to
+switch from the "old" sequencing technology to to the new one.
+
+--
+
+Less research, more development
+
+## Two flavours of viral populations
+
+1. HIV as above (HCV too): there is a specific virus, you want to know
+exactly how it looks like
+2. Metagenomics: what virus is in there?
+
+## What did I learn? (III)
+
+::: incremental
+- The most common question a biologist asks a "statistics" person
+- The names of **all** different viral species that can infect humans 
+- Ok, that was a joke
+- HCV can be sexually transmitted
+- The effect that methadone and needle and syringe programmes had in Zurich
+- Many of the things that have been in the news in the past ~3 years
+:::
+
+## Change
+
+:::incremental
+- From Switzerland back to Italy
+- From virology to "business"
+- From academia to corporate
+:::
+
+Team Big Data in Vodafone Italia as senior data scientist
+
+![](images/vodafone.jpeg)
+
+## What do we do?
+
+We support marketing with our analysis, translating a business problem
+into an algorithm (typically a machine learning model)
+
+## Examples
+
+- When will a customer cease to be a customer?
+- What drives them to leave us?
+- What is the product they are most likely to buy and at what price?
+- Are they satisfied with our products?
+- If not why?
+
+And all abiding by strict privacy rules
+
+## How do we do this?
+
+First, talking to people
+
+Collecting, curating, investigating, transforming, and finally analysing data
+
+## What did I learn? (IV)
+
+::: incremental
+- Data you need **never, ever, ever** come in the shape you would like
+- Companies truly are complex systems
+- Working in a company is very much a team work
+- Who does what is probably the most difficult part to solve
+:::
+
+## What next?
+::: columns
+::: {.column width="40%"}
+![](images/understanging_ml.jpeg)
+:::
+
+::: {.column width="40%"}
+![](images/causal.png)
+:::
+:::
+
+## Acknowledgements
+
+The organisers
+
+--
+
+Mentors, friends, colleagues, students, managers, other colleagues, yet other
+colleagues, other friends and so on and on and on...
+
+
+## Thanks
+
+![](images/here_to_help.png)
