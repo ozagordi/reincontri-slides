@@ -1,7 +1,7 @@
 ---
 title: "O(1) things I learned since my 'Laurea' in Physics"
 author: "Osvaldo Zagordi"
-format: revealjs
+format: pptx
 editor: visual
 ---
 
@@ -15,7 +15,8 @@ editor: visual
 -   (in the meanwhile, a couple of private initiatives)
 :::
 
-## PhD \@ SISSA, Trieste
+## PhD \@ SISSA, Trieste {background-image="images/trieste.jpg"}
+
 
 ## Electrons and Boolean variables
 
@@ -54,11 +55,11 @@ editor: visual
 -   ... but risky (in both ways)
 :::
 
-## Off to Basel, Switzerland
+## Off to Basel, Switzerland {background-image="images/panorama-basel.jpeg"}
 
 ::: columns
 ::: {.column width="75%"}
-![](images/panorama-basel.jpeg)
+
 :::
 
 ::: {.column width="25%"}
@@ -104,7 +105,8 @@ Still around despite being \>10 years old
 ::: incremental
 -   a few things on HIV and its therapy
 -   Bayes rule (just can't get enough)
--   linked list (data structure developed in the 50s)
+-   mixture models (like Dirichlet Process Mixture)
+-   a few programming tricks
 -   that it takes a lot of effort to write help pages
 :::
 
@@ -120,10 +122,9 @@ Still around despite being \>10 years old
 :::
 :::
 
-## In Zurich, this time for real
+## In Zurich, this time for real {background-image="images/zurich.jpg"}
 ::: columns
-::: {.column width="95%"}
-![](images/zurich.jpg)
+::: {.column width="75%"}
 :::
 
 ::: {.column width="25%"}
@@ -191,15 +192,17 @@ And all abiding by strict privacy rules
 
 ## How do we do this?
 
-First, talking to people
+First, talking to colleagues
+
+--
 
 Collecting, curating, investigating, transforming, and finally analysing data
 
-## What did I learn? (IV)
+## What am I learning? (IV)
 
 ::: incremental
 - Data you need **never, ever, ever** come in the shape you would like
-- Companies truly are complex systems
+- Big companies truly are complex systems
 - Working in a company is very much a team work
 - Who does what is probably the most difficult part to solve
 :::
